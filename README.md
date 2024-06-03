@@ -32,9 +32,9 @@ Réalisation d'un site de location immobilière avec react
 
 
 ### Pourquoi si peu de commits? 
--J'avais bien commencer le projet (étape4), mais suite à un soucis 
-j'ai du reprendre mon projet, sauvegarder sur mon disque dur et non sur github
-- J'ai du supprimer l'ancien, et recommencer de zero car, comme il y avait 
+- J'avais bien commencer le projet (étape4), mais suite à un soucis <br>
+j'ai du reprendre mon projet qui était sauvegardé sur mon disque dur et malheuresement pas sur github
+- J'ai du supprimer l'ancien, et recommencer de zero car, comme il y avait <br>
 plus de 1000 nouvelles modificiations, VSC ne voualit pas que je le Push. 
 
 
