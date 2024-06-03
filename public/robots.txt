@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /downloads/
+
+Sitemap: https://kasa-2m0.pages.dev/sitemap-file.xml
