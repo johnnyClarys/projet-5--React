@@ -35,6 +35,6 @@ Réalisation d'un site de location immobilière avec react
 -J'avais bien commencer le projet (étape4), mais suite à un soucis 
 j'ai du reprendre mon projet, sauvegarder sur mon disque dur et non sur github
 - J'ai du supprimer l'ancien, et recommencer de zero car, comme il y avait 
-plus de 1000 nouvelles modificiations, VSC ne voualit pas que je le Push. 
+plus de 1000 nouvelles modificiations, VSC ne voulait pas que je le Push. 
 
 
