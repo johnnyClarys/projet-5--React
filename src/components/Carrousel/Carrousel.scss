@@ -6,26 +6,26 @@
     object-fit: cover;
 }
 
-.chevron-prev {
+.chevron-prev,
+.chevron-next {
     position: absolute;
     top: 50%;
-    left: 2%;
     z-index: 1;
     transform: translateY(-50%);
     width: clamp(1.2rem, 3vw, 5rem);
     cursor: pointer;
 }
 
-.chevron-next {
-    position: absolute;
-    top: 50%;
-    right: 2%;
-    z-index: 1;
-    transform: translateY(-50%) rotate(180deg);
-    width: clamp(1.2rem, 3vw, 5rem);
-    cursor: pointer;
+.chevron-prev {
+    left: 2%;
 }
-.counter{
+
+.chevron-next {
+    right: 2%;
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.counter {
     position: absolute;
     top: 90%;
     left: 50%;
