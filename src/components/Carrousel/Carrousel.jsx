@@ -1,4 +1,4 @@
-import './Carrousel.css'
+import './Carrousel.scss'
 import chevronPrev from '../../assets/chevron-carrousel.svg'
 import chevronNext from '../../assets/chevron-carrousel.svg'
 import { useState } from 'react'

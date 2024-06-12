@@ -1,4 +1,4 @@
-import './Collapse.css'
+import './Collapse.scss'
 import chevron from '../../assets/chevron.svg'
 import { useState } from 'react'
 

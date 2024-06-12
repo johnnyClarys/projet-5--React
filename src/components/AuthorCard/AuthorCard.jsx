@@ -1,4 +1,4 @@
-import './AuthorCard.css'
+import './AuthorCard.scss'
 
 const AuthorCard = ({ picture, name }) => {
     const fullName = name.split(' ')
