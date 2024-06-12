@@ -2,7 +2,7 @@ import Banner from '../../components/Banner/Banner'
 import bannerImage from '../../assets/banner-about.webp'
 import Collapse from '../../components/Collapse/Collapse'
 import Data from '../../datas/about.json'
-import './About.css'
+import './About.scss'
 
 const About = () => {
     return (

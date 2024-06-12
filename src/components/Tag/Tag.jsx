@@ -1,4 +1,4 @@
-import './tag.scss'
+import './Tag.scss'
 
 const Tag = ({ tags }) => {
     return (

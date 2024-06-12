@@ -6,7 +6,7 @@ import Tag from '../../components/Tag/Tag.jsx'
 import Rating from '../../components/Rating/Rating.jsx'
 import Collapse from '../../components/Collapse/Collapse.jsx'
 import AuthorCard from '../../components/AuthorCard/AuthorCard.jsx'
-import './Housing.css'
+import './Housing.scss'
 
 const Housing = () => {
     
