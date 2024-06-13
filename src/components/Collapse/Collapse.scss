@@ -21,9 +21,13 @@
 
         .collapse-chevron {
             width: clamp(1rem, 3vw, 2.5rem);
+            transform: rotate(0deg);
+            transition: transform 0.5s ;
+            
 
             &.collapsed {
-                transform: rotateX(180deg);
+                transform: rotate(180deg);
+                transition: transform 0.5s ;
             }
         }
     }
