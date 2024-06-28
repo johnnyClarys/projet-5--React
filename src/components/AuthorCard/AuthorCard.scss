@@ -5,7 +5,8 @@
 
     .author-card-container {
         img {
-            width: clamp(3rem, 5vw, 6rem);
+            width:64px;
+            height: 64px;
             border-radius: 50%;
             object-fit: cover;
         }
