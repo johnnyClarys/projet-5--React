@@ -62,7 +62,15 @@
         }
     }
 }
-
+.tagAndRate {
+    display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 55em;
+}
+.rating-container {
+    align-items: flex-end;
+}
 .title-container h1 {
     font-weight: 500;
     font-size: calc(1.7rem + 1vw);
@@ -73,6 +81,7 @@
     font-weight: 500;
     font-size: calc(1rem + 1vw);
     margin: 2% 0;
+    color: black;
 }
 
 .rating-author-container {

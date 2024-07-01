@@ -41,13 +41,7 @@ const Housing = () => {
             <main className="housing-main">
                 <section className="info-container">
                     <div className="title-container">
-                        <h1>{selectedData.title}</h1>
-                        <h2>{selectedData.location}</h2>
-                        <div className="tag-container">
-                            <Tag tags={selectedData.tags} />
-                        </div>
-                    </div>
-                    <div className="rating-author-container">
+                        <h1>{selectedData.title}
                         <div className="author-card-container">
                             <AuthorCard
                                 key={`${selectedData.id}-name`}
@@ -55,10 +49,21 @@ const Housing = () => {
                                 name={selectedData.host.name}
                             />
                         </div>
+                        </h1>
+                        <h2>{selectedData.location}</h2>
 
+                        <div className="tagAndRate">
+                        <div className="tag-container">
+                            <Tag tags={selectedData.tags}/>
+                        </div>
                         <div className="rating-container">
                             <Rating rating={selectedData.rating} />
                         </div>
+                        </div>
+                   
+                  
+
+                        
                     </div>
                 </section>
                 <div className="housing-collapse-container">
