@@ -2,21 +2,17 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-
-    .author-card-container {
-        img {
-            width:64px;
-            height: 64px;
-            border-radius: 50%;
-            object-fit: cover;
-        }
-
-        figcaption {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-end;
-            margin: 0 10%;
-            font-size: clamp(1rem, 3vw, 2rem);
-        }
+    img {
+        width:64px;
+        height: 64px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    figcaption {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin: 0 10%;
+        font-size: clamp(1rem, 3vw, 2rem);
     }
 }
