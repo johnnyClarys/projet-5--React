@@ -39,33 +39,30 @@ const Housing = () => {
                 </div>
             </header>
             <main className="housing-main">
-                <section className="info-container">
-                    <div className="title-container">
-                        <h1>{selectedData.title}
-                        <div className="author-card-container">
-                            <AuthorCard
-                                key={`${selectedData.id}-name`}
-                                picture={selectedData.host.picture}
-                                name={selectedData.host.name}
-                            />
-                        </div>
-                        </h1>
-                        <h2>{selectedData.location}</h2>
+            <section className="info-container">
+    <div className="title-container">
+        <h1>{selectedData.title}</h1>
+        <h2>{selectedData.location}</h2>
 
-                        <div className="tagAndRate">
-                        <div className="tag-container">
-                            <Tag tags={selectedData.tags}/>
-                        </div>
-                        <div className="rating-container">
-                            <Rating rating={selectedData.rating} />
-                        </div>
-                        </div>
-                   
-                  
-
-                        
-                    </div>
-                </section>
+        <div className="tagAndRate">
+            <div className="tag-container">
+                <Tag tags={selectedData.tags}/>
+            </div>
+        </div>
+    </div>
+    <div className="author-and-rating">
+        <div className="author-card-container">
+            <AuthorCard
+                key={`${selectedData.id}-name`}
+                picture={selectedData.host.picture}
+                name={selectedData.host.name}
+            />
+        </div>
+        <div className="rating-container">
+            <Rating rating={selectedData.rating}/>
+        </div>
+    </div>
+</section>
                 <div className="housing-collapse-container">
                     <Collapse
                         key={`${selectedData.id}-description`}

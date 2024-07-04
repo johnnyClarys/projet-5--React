@@ -18,11 +18,14 @@
     @media (min-width: 1024px) {
         padding-bottom: 35%;
 
-        .info-container {
+        .info-container{
             display: flex;
-            flex-direction: row;
             justify-content: space-between;
-            padding: 2rem 0;
+        }
+        .author-and-rating{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
         }
 
         .title-container {
@@ -82,12 +85,4 @@
     font-size: calc(1rem + 1vw);
     margin: 2% 0;
     color: black;
-}
-
-.rating-author-container {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-between;
-    margin: 2% 0;
 }
