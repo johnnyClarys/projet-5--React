@@ -16,3 +16,8 @@
         font-size: clamp(1rem, 3vw, 2rem);
     }
 }
+@media screen and (max-width: 1024px) {
+.author-card {
+    justify-content: flex-start;
+}
+}
